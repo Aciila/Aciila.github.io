@@ -27,7 +27,7 @@ const About = () => (
 					committed to staying up with the latest industry trends and adopting
 					new technologies into projects. In the future, I would like to become
 					an expert in Machine Learning (ML). I&apos;m open to relocation abroad
-					and also to work remotely
+					and also to work remotely.
 				</Text>
 			</div>
 		</Container>
