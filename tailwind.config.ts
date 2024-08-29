@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss";
+const defaultTheme = require('tailwindcss/defaultTheme')
 
 const config: Config = {
   content: [
@@ -15,6 +16,13 @@ const config: Config = {
         'custom-gradient': ' linear-gradient(to bottom, rgba(83,236,203,0.8071603641456583) 0%, rgba(122,231,207,0.7567401960784313) 21%, rgba(255,255,255,1) 100%);',
       },
     },
+    screens: {
+      'mobile': {
+        max: "768px"
+      },
+      'tablets': '769px',
+      ...defaultTheme.screens,
+    }
   },
   darkMode: 'media',
   plugins: [],

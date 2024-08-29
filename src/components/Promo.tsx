@@ -6,7 +6,7 @@ import Text from './reusable/Text';
 const Promo = () => (
 	<section className='promo pt-20'>
 		<Container>
-			<div className='flex items-center justify-center gap-7'>
+			<div className='flex items-center justify-center gap-7 mobile:flex-col'>
 				<div className='basis-1/2'>
 					<Title>Hello, I&apos;m Vladislav!</Title>
 					<Text styles='mt-4'>Frontend-developer from Ukraine</Text>

@@ -11,7 +11,7 @@ const Projects = () => (
 				<Title styles='text-center' level={2}>
 					PROJECTS
 				</Title>
-				<div className='mt-8 grid grid-cols-2 gap-20'>
+				<div className='mt-8 grid grid-cols-2 gap-20 mobile:grid-cols-1'>
 					{projects.map((project, idx) => (
 						<Card
 							name={project.name}

@@ -11,7 +11,7 @@ const Stack = () => (
 				<Title styles='text-center' level={2}>
 					MY STACK
 				</Title>
-				<ul className='mt-8 grid grid-cols-4 gap-6 items-center'>
+				<ul className='mt-8 grid grid-cols-4 gap-6 items-center mobile:grid-cols-2'>
 					{stack.map((tech, idx) => (
 						<li className='flex items-center justify-center flex-col' key={idx}>
 							<img width={48} height={48} src={tech.asset} alt={tech.name} />
